@@ -1,0 +1,55 @@
+
+.contenedores {
+    padding: 5rem;
+    text-align: center;    
+    }
+
+.parrafo {
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+}
+
+.fondogris {
+    @extend .contenedores;
+    background-color: $granite-gray;
+    &__imagen {
+        width: 70%;}
+
+    p {
+        @extend .parrafo;
+        color: $white;
+    }
+    h2 {
+        color: $white;
+    }
+
+}
+
+.fondoblanco {
+    @extend .contenedores;
+    margin-bottom: 1rem;
+    &__imagen {
+        width: 70%;
+    }
+    
+    p {
+        @extend .parrafo;
+    }
+
+}
+
+.fondo-rosa2 {
+    text-align: center;
+    background-color: $jelly-bean; 
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    &__texto {
+        font-size: $large;
+    }
+}
+
+.imagen {
+    width: 20%;
+    margin: 1rem;
+}

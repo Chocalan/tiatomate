@@ -1,0 +1,10 @@
+.header {
+    margin-top: 1rem;
+    padding-left: 5rem;
+    &__logo {
+        width: 100%;
+        img {
+            width: 20%;
+        }
+     }
+}
